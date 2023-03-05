@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="test.net.xml"/>
+        <route-files value="test.rou.xml"/>
+        <additional-files value="test.add.xml,traffic_light.add.xml"/>
+    </input>
+    <output>
+        <full-output value="fulloutput.xml"/>
+    </output>
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+        <step-length value="0.1"/>
+        
+    </time>
+</configuration>

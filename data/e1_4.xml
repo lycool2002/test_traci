@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-05 21:25:01 by Eclipse SUMO sumo Version 1.16.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="data/test.net.xml"/>
+        <route-files value="data/test.rou.xml"/>
+        <additional-files value="data/test.add.xml,data/traffic_light.add.xml"/>
+    </input>
+
+    <output>
+        <full-output value="data/fulloutput.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="51023"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="LSN2" nVehContrib="108" flow="1296.00" occupancy="14.62" speed="13.01" harmonicMeanSpeed="12.31" length="5.00" nVehEntered="108"/>
+</detector>

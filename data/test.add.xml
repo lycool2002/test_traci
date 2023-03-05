@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-04 14:00:39 by Eclipse SUMO netedit Version 1.16.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="LEW" lane="-E1_0" pos="85.72" period="300.00" file="e1_5.xml"/>
+    <inductionLoop id="LNS1" lane="-E3_0" pos="74.03" period="300.00" file="e1_1.xml"/>
+    <inductionLoop id="LNS2" lane="-E3_1" pos="74.05" period="300.00" file="e1_2.xml"/>
+    <inductionLoop id="LSN1" lane="-E2_1" pos="75.54" period="300.00" file="e1_3.xml"/>
+    <inductionLoop id="LSN2" lane="-E2_0" pos="75.64" period="300.00" file="e1_4.xml"/>
+    <inductionLoop id="LWE" lane="E0_0" pos="64.29" period="300.00" file="e1_0.xml"/>
+    <laneAreaDetector id="Dect_ETW" lane="-E1_0" pos="75.94" length="10.00" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="Dect_NTSL" lane="-E3_1" pos="64.35" length="10.00" period="300.00" file="e2_2.xml"/>
+    <laneAreaDetector id="Dect_NTSR" lane="-E3_0" pos="64.29" length="10.00" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="Dect_STNL" lane="-E2_1" pos="66.60" length="10.00" period="300.00" file="e2_3.xml"/>
+    <laneAreaDetector id="Dect_STNR" lane="-E2_0" pos="66.50" length="10.00" period="300.00" file="e2_4.xml"/>
+    <laneAreaDetector id="Dect_WTE" lane="E0_0" pos="54.46" length="10.00" period="300.00" file="e2_0.xml"/>
+</additional>
