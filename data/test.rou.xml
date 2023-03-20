@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
     <vType id="type1" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="70"/>
-    <!-- <flow id="WTE" type="type1" begin="0" end="3600" vehsPerHour="200" color="1,1,0" from="E0" to="E1"/>
-    <flow id="WTN" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="E0" to="E2"/>
-    <flow id="WTS" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="E0" to="E3"/>
-    <flow id="ETW" type="type1" begin="0" end="3600" vehsPerHour="200" color="1,1,0" from="-E1" to="-E0"/>
-    <flow id="ETN" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="-E1" to="E3"/>
+    <flow id="WTE" type="type1" begin="0" end="3600" vehsPerHour="5000" color="1,1,0" from="E0" to="E1"/>
+    <!-- <flow id="WTN" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="E0" to="E2"/>
+    <flow id="WTS" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="E0" to="E3"/> -->
+    <flow id="ETW" type="type1" begin="0" end="3600" vehsPerHour="3000" color="1,1,0" from="-E1" to="-E0"/>
+    <!-- <flow id="ETN" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="-E1" to="E3"/>
     <flow id="ETS" type="type1" begin="0" end="3600" vehsPerHour="1000" color="1,1,0" from="-E1" to="E2"/>  -->
-    <flow id="NTS" type="type1" begin="0" end="3600" vehsPerHour="4000" color="1,1,0" from="-E3" to="E2"/>
-    <flow id="NTW" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E3" to="-E0"/>
-    <flow id="NTE" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E3" to="E1"/>
-    <flow id="STN" type="type1" begin="0" end="3600" vehsPerHour="4000" color="1,1,0" from="-E2" to="E3"/>
-    <flow id="STW" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E2" to="-E0"/>
-    <flow id="STE" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E2" to="E1"/>
+    <flow id="NTS" type="type1" begin="0" end="3600" vehsPerHour="3000" color="1,1,0" from="-E3" to="E2"/>
+    <!-- <flow id="NTW" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E3" to="-E0"/>
+    <flow id="NTE" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E3" to="E1"/> -->
+    <flow id="STN" type="type1" begin="0" end="3600" vehsPerHour="3000" color="1,1,0" from="-E2" to="E3"/>
+    <!-- <flow id="STW" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E2" to="-E0"/>
+    <flow id="STE" type="type1" begin="0" end="3600" vehsPerHour="400" color="1,1,0" from="-E2" to="E1"/> -->
 </routes>

@@ -10,16 +10,12 @@ import traci  # noqa
 
 
 def run():
-    """execute the TraCI control loop"""
     
-
-
-    #飽和流率是假設在連續不斷的車流抵達情況下，且有100％綠燈通行時間，每小時可通過路口的車輛數(輛/小時)
     while traci.simulation.getTime() < 600:
         
         traci.simulationStep()
         
-        traci.trafficlight.setProgram('J1',0)#設為一直綠燈
+        traci.trafficlight.setProgram('J1',0)#改週期
     
 
         
