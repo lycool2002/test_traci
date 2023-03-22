@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <additional>
-  <tlLogic id="J1" programID="my_program" offset="0" type="static">
-     <phase duration="31" state="rrrrrGGGgrrrrrGGGg"/>
-     <phase duration="5" state="rrrrryyyyrrrrryyyy"/>
-     <phase duration="19" state="GGGggrrrrGGGggrrrr"/>
-     <phase duration="5" state="yyyyyrrrryyyyyrrrr"/>
-  </tlLogic>
-<additional>
+    <tlLogic id="J1" type="static" programID="1" offset="0">
+         <phase duration="58" state="rrrrrGGGgrrrrrGGGg"/>
+         <phase duration="2" state="rrrrryyyyrrrrryyyy"/>
+         <phase duration="39" state="GGGggrrrrGGGggrrrr"/>
+         <phase duration="2" state="yyyyyrrrryyyyyrrrr"/>
+     </tlLogic>
+</additional>
